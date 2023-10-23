@@ -5,5 +5,7 @@ let btn=document.getElementById("enterBtn");
 
 btn.addEventListener("click",f);
 function f(){
-	p.innerHTML="Entered Metaverse";
+	let para=document.createElement("h1");
+	para.innerHTML="Entered Metaverse";
+	p.replaceWith(para);
 }
