@@ -7,5 +7,7 @@ btn.addEventListener("click",f);
 function f(){
 	let para=document.createElement("h1");
 	para.innerHTML="Entered Metaverse";
-	p.replaceWith(para);
+	p.innerHTML="";
+	p.appendChild(para);
+	
 }
